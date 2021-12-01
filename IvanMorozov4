@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IvanMorozov2
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.Write("n= ");
+            byte n = byte.Parse(Console.ReadLine());
+            switch (n)
+            {
+                case 2: Console.WriteLine("Иван");
+                    Console.WriteLine("Мурад");
+                    Console.WriteLine("Саид");
+                    Console.WriteLine("Олег");
+                    Console.WriteLine("Илья");
+                    break;
+                case 1: Console.WriteLine("Дарья");
+                    Console.WriteLine("Эмилия");
+                    Console.WriteLine("Света");
+                    Console.WriteLine("Наталья");
+                    Console.WriteLine("Полина");
+                    break;
+                default: Console.WriteLine("ВЫ ОШИБЛИСЬ"); break;
+            }
+        }
+    }
+}
